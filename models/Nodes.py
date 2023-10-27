@@ -3,13 +3,16 @@ import json
 import heapq
 
 class Node:
-    def __init__(self, x, y, is_entrance=False, is_empty=False,id = None, is_parking=False):
+    def __init__(self, x, y, is_entrance=False, is_empty=False,id = None, is_parking=False, 
+                 direction=0):
+        # direction为0表示该坐标位于左上角，否则位于右上角
         self.x = x  # 横坐标
         self.y = y  # 纵坐标
         self.id = id
         self.is_entrance = is_entrance  # 是否为入口，默认为False
         self.is_empty = is_empty  # 是否为空车位，默认为False
         self.is_parking = is_parking
+        self.direction = direction
 
     def __str__(self):
         return f"Node at ({self.x}, {self.y}), Entrance: {self.is_entrance}, Empty: {self.is_empty}"
@@ -28,7 +31,8 @@ def read(file):
     with open(file, 'r') as f:
         data = json.load(f)
     return [Node(item['x'], item['y'], item['is_entrance'], 
-                    item['is_empty'], item['id'], item['is_parking']) for item in data]
+                    item['is_empty'], item['id'], item['is_parking'], 
+                    item['direction']) for item in data]
             
 def Get_Nearest_Node(NodeList, node):
     if isinstance(node, Node):
