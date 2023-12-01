@@ -6,7 +6,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 795.0,
@@ -15,7 +15,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 829.635761589404,
@@ -24,7 +24,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 924.6736111111111,
@@ -33,7 +33,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 886.219512195122,
@@ -42,7 +42,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 743.8057553956835,
@@ -51,7 +51,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 974.9626168224299,
@@ -60,7 +60,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1024.28,
@@ -69,7 +69,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 702.5745856353591,
@@ -78,7 +78,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1019.5323741007194,
@@ -87,7 +87,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 644.5416666666666,
@@ -96,7 +96,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1075.3645833333333,
@@ -105,7 +105,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 605.9803921568628,
@@ -114,7 +114,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 549.4455445544554,
@@ -123,7 +123,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 511.6,
@@ -132,7 +132,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 455.03478260869565,
@@ -141,7 +141,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 408.9741379310345,
@@ -150,7 +150,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 357.6449275362319,
@@ -159,7 +159,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 315.6578947368421,
@@ -168,7 +168,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 269.7181818181818,
@@ -177,7 +177,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 217.05555555555554,
@@ -186,7 +186,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 171.2439024390244,
@@ -195,7 +195,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 131.65753424657535,
@@ -204,7 +204,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 89.58,
@@ -213,7 +213,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 795.5333333333333,
@@ -222,7 +222,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 167.48809523809524,
@@ -231,7 +231,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 3.973333333333333,
@@ -240,7 +240,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 222.89523809523808,
@@ -249,7 +249,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 261.03846153846155,
@@ -258,7 +258,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 456.55,
@@ -267,7 +267,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 703.061403508772,
@@ -276,7 +276,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 923.35,
@@ -285,7 +285,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 980.8055555555555,
@@ -294,7 +294,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1020.1,
@@ -303,7 +303,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 408.85,
@@ -312,7 +312,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 510.45283018867923,
@@ -321,7 +321,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 550.8192771084338,
@@ -330,7 +330,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 609.3541666666666,
@@ -339,7 +339,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 737.0891089108911,
@@ -348,7 +348,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 888.2,
@@ -357,7 +357,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 125.53846153846153,
@@ -366,7 +366,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 359.08910891089107,
@@ -375,7 +375,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 645.2527472527472,
@@ -384,7 +384,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 831.6491228070175,
@@ -393,7 +393,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1079.8271604938273,
@@ -402,7 +402,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 86.57692307692308,
@@ -411,7 +411,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 318.8301886792453,
@@ -420,7 +420,7 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     },
     {
         "x": 1079.283950617284,
@@ -429,6 +429,6 @@
         "is_empty": 0,
         "id": null,
         "is_parking": 0,
-        "dirction": 0
+        "direction": 0
     }
 ]

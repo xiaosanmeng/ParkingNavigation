@@ -1,12 +1,7 @@
-import json
-import heapq
+import json, heapq, cv2
 import numpy as np
-import cv2
 from Nodes import *
-import os
-import sys
 import matplotlib.pyplot as plt
-# from utils.ImgOp import *
 class Graph:
     def __init__(self):
         self.Nodes = read("./config/data.json")
