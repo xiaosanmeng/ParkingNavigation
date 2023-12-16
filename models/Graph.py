@@ -1,17 +1,22 @@
-import json, heapq, cv2
 import numpy as np
-from Nodes import *
+from pathlib import Path
+import json, heapq, cv2, sys, os
+
+base_dir = Path(__file__).parent.parent.absolute().__str__()
+sys.path.append(base_dir)
+
+from models.Nodes import *
 import matplotlib.pyplot as plt
 class Graph:
     def __init__(self):
-        self.Nodes = read("./config/data.json")
+        self.Nodes = read(os.path.join(base_dir ,"config/data.json"))
 
         self.dic = {}
         for node in self.Nodes:
             self.dic[node.id] = node
 
         self.Edges = []
-        with open("./config/edge.txt", "r") as f:
+        with open(os.path.join(base_dir, "config/edge.txt"), "r") as f:
             for line in f:
                 self.Edges.append(map(int, line.strip().split()))
 
@@ -23,7 +28,7 @@ class Graph:
         
 
         self.f = []
-        with open("./config/START.json", "r") as f:
+        with open(os.path.join(base_dir, "config/START.json"), "r") as f:
             self.f = json.load(f)
 
     def Dijkstra(self, x):
@@ -62,9 +67,9 @@ class Graph:
         while z != -1:
             List.append(self.dic[z])
             z = pre[z]
-        return target, List
+        return dis[target.id], target, List
 
-def Visulize(Nodes):
+def Visulize(Nodes, img_path):
     def imshow(image, cmap=None, title=None):
         fig, ax = plt.subplots(1, 1)
         img = image.copy()
@@ -80,7 +85,7 @@ def Visulize(Nodes):
             ax.set_title(title)
         plt.show()
 
-    img = cv2.imread("saveImg/scene1380.jpg")
+    img = cv2.imread(img_path)
 
     for node in Nodes:
         cv2.circle(img, (int(node.x), int(node.y)), 5, (0, 0, 255), thickness=3)
@@ -90,12 +95,12 @@ def Visulize(Nodes):
                 (int(Nodes[i - 1].x), int(Nodes[i - 1].y)), 
                 (int(Nodes[i].x), int(Nodes[i].y)), 
                 (255, 0, 0), thickness=2)
-    imshow(img)
+    return img
 
 if __name__ == '__main__':
     w = Graph()
-    z, NodesList = w.Dijkstra(0)
+    x, z, NodesList = w.Dijkstra(0)
     print(z.id)
-    Visulize(NodesList)
+    Visulize(NodesList, os.path.join(base_dir, "saveImg/scene1410.jpg"))
 
 

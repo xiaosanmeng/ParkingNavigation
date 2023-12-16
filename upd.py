@@ -1,14 +1,19 @@
-import json, cv2
+import json, cv2, sys, os
 import numpy as np
+from PIL import Image
+from pathlib import Path
 from utils import *
 from detection.inference import dectect
+
+base_dir = Path(__file__).parent.absolute().__str__()
+sys.path.append(base_dir)
 
 """更新每个停车位的空车状态"""
 def chk(img):
     # 期望传入的是一个二维 ndarray
     assert img is not None
     # imshow(img)
-    with open("./config/data.json", 'r') as f:
+    with open(os.path.join(base_dir ,"config/data.json"), 'r') as f:
         data = json.load(f)
     for i in range(len(data)):
         if data[i]['is_parking'] == 0:
@@ -20,10 +25,11 @@ def chk(img):
         # imshow(target)
         # 更新状态
         data[i]['is_empty'] = dectect(target) ^ 1
+        # print(data[i]['is_empty'])
     # 写入 data.json
-    with open("./config/data.json", "w") as f:
+    with open(os.path.join(base_dir ,"config/data.json"), "w") as f:
         json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
-    chk(cv2.imread("saveImg/scene1380.jpg"))
+    chk(np.array(Image.open(os.path.join(base_dir ,"saveImg/scene1381.jpg"))))
 
